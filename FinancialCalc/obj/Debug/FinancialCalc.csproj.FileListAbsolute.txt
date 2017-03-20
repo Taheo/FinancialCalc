@@ -1,0 +1,9 @@
+E:\programowanie\c#\Visual\Projects\FinancialCalc\FinancialCalc\bin\Debug\FinancialCalc.exe.config
+E:\programowanie\c#\Visual\Projects\FinancialCalc\FinancialCalc\bin\Debug\FinancialCalc.exe
+E:\programowanie\c#\Visual\Projects\FinancialCalc\FinancialCalc\bin\Debug\FinancialCalc.pdb
+E:\programowanie\c#\Visual\Projects\FinancialCalc\FinancialCalc\obj\Debug\FinancialCalc.csprojResolveAssemblyReference.cache
+E:\programowanie\c#\Visual\Projects\FinancialCalc\FinancialCalc\obj\Debug\FinancialCalc.Form1.resources
+E:\programowanie\c#\Visual\Projects\FinancialCalc\FinancialCalc\obj\Debug\FinancialCalc.Properties.Resources.resources
+E:\programowanie\c#\Visual\Projects\FinancialCalc\FinancialCalc\obj\Debug\FinancialCalc.csproj.GenerateResource.Cache
+E:\programowanie\c#\Visual\Projects\FinancialCalc\FinancialCalc\obj\Debug\FinancialCalc.exe
+E:\programowanie\c#\Visual\Projects\FinancialCalc\FinancialCalc\obj\Debug\FinancialCalc.pdb
