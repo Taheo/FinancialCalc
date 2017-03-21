@@ -54,7 +54,7 @@
             "Transport",
             "Books",
             "Others"});
-            this.category.Location = new System.Drawing.Point(268, 330);
+            this.category.Location = new System.Drawing.Point(62, 356);
             this.category.Name = "category";
             this.category.Size = new System.Drawing.Size(152, 21);
             this.category.TabIndex = 0;
@@ -62,7 +62,7 @@
             // addbutton
             // 
             this.addbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.addbutton.Location = new System.Drawing.Point(435, 330);
+            this.addbutton.Location = new System.Drawing.Point(237, 331);
             this.addbutton.Name = "addbutton";
             this.addbutton.Size = new System.Drawing.Size(122, 44);
             this.addbutton.TabIndex = 1;
@@ -73,7 +73,7 @@
             // calcbutton
             // 
             this.calcbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.calcbutton.Location = new System.Drawing.Point(563, 329);
+            this.calcbutton.Location = new System.Drawing.Point(365, 330);
             this.calcbutton.Name = "calcbutton";
             this.calcbutton.Size = new System.Drawing.Size(79, 47);
             this.calcbutton.TabIndex = 2;
@@ -130,7 +130,7 @@
             // 
             this.input.Location = new System.Drawing.Point(62, 330);
             this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(184, 20);
+            this.input.Size = new System.Drawing.Size(152, 20);
             this.input.TabIndex = 8;
             // 
             // foodlabel
@@ -187,9 +187,10 @@
             // sumlabel
             // 
             this.sumlabel.AutoSize = true;
-            this.sumlabel.Location = new System.Drawing.Point(841, 453);
+            this.sumlabel.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.sumlabel.Location = new System.Drawing.Point(920, 344);
             this.sumlabel.Name = "sumlabel";
-            this.sumlabel.Size = new System.Drawing.Size(37, 13);
+            this.sumlabel.Size = new System.Drawing.Size(76, 31);
             this.sumlabel.TabIndex = 14;
             this.sumlabel.Text = "Result";
             // 
