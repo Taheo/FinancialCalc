@@ -65,7 +65,8 @@ namespace FinancialCalc
                  partylist.ConvertAll(item => double.Parse(item)).Sum() +
                  transportlist.ConvertAll(item => double.Parse(item)).Sum() +
                  bookslist.ConvertAll(item => double.Parse(item)).Sum() +
-                 otherslist.ConvertAll(item => double.Parse(item)).Sum() ;
+                 otherslist.ConvertAll(item => double.Parse(item)).Sum();
+
             sumlabel.Text = tempsum.ToString();
         }
 

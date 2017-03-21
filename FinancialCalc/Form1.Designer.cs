@@ -54,7 +54,7 @@
             "Transport",
             "Books",
             "Others"});
-            this.category.Location = new System.Drawing.Point(62, 356);
+            this.category.Location = new System.Drawing.Point(56, 354);
             this.category.Name = "category";
             this.category.Size = new System.Drawing.Size(152, 21);
             this.category.TabIndex = 0;
@@ -62,9 +62,9 @@
             // addbutton
             // 
             this.addbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.addbutton.Location = new System.Drawing.Point(237, 331);
+            this.addbutton.Location = new System.Drawing.Point(214, 328);
             this.addbutton.Name = "addbutton";
-            this.addbutton.Size = new System.Drawing.Size(122, 44);
+            this.addbutton.Size = new System.Drawing.Size(122, 47);
             this.addbutton.TabIndex = 1;
             this.addbutton.Text = "Add";
             this.addbutton.UseVisualStyleBackColor = true;
@@ -73,7 +73,7 @@
             // calcbutton
             // 
             this.calcbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.calcbutton.Location = new System.Drawing.Point(365, 330);
+            this.calcbutton.Location = new System.Drawing.Point(342, 328);
             this.calcbutton.Name = "calcbutton";
             this.calcbutton.Size = new System.Drawing.Size(79, 47);
             this.calcbutton.TabIndex = 2;
@@ -87,6 +87,7 @@
             this.food.Multiline = true;
             this.food.Name = "food";
             this.food.ReadOnly = true;
+            this.food.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.food.Size = new System.Drawing.Size(183, 166);
             this.food.TabIndex = 3;
             // 
@@ -96,6 +97,7 @@
             this.party.Multiline = true;
             this.party.Name = "party";
             this.party.ReadOnly = true;
+            this.party.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.party.Size = new System.Drawing.Size(183, 166);
             this.party.TabIndex = 4;
             // 
@@ -105,6 +107,7 @@
             this.transport.Multiline = true;
             this.transport.Name = "transport";
             this.transport.ReadOnly = true;
+            this.transport.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.transport.Size = new System.Drawing.Size(183, 166);
             this.transport.TabIndex = 5;
             // 
@@ -114,6 +117,7 @@
             this.others.Multiline = true;
             this.others.Name = "others";
             this.others.ReadOnly = true;
+            this.others.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.others.Size = new System.Drawing.Size(183, 166);
             this.others.TabIndex = 6;
             // 
@@ -123,12 +127,13 @@
             this.books.Multiline = true;
             this.books.Name = "books";
             this.books.ReadOnly = true;
+            this.books.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.books.Size = new System.Drawing.Size(183, 166);
             this.books.TabIndex = 7;
             // 
             // input
             // 
-            this.input.Location = new System.Drawing.Point(62, 330);
+            this.input.Location = new System.Drawing.Point(56, 328);
             this.input.Name = "input";
             this.input.Size = new System.Drawing.Size(152, 20);
             this.input.TabIndex = 8;
