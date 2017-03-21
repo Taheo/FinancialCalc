@@ -54,7 +54,7 @@
             "Transport",
             "Books",
             "Others"});
-            this.category.Location = new System.Drawing.Point(300, 437);
+            this.category.Location = new System.Drawing.Point(268, 330);
             this.category.Name = "category";
             this.category.Size = new System.Drawing.Size(152, 21);
             this.category.TabIndex = 0;
@@ -62,7 +62,7 @@
             // addbutton
             // 
             this.addbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.addbutton.Location = new System.Drawing.Point(467, 437);
+            this.addbutton.Location = new System.Drawing.Point(435, 330);
             this.addbutton.Name = "addbutton";
             this.addbutton.Size = new System.Drawing.Size(122, 44);
             this.addbutton.TabIndex = 1;
@@ -73,7 +73,7 @@
             // calcbutton
             // 
             this.calcbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.calcbutton.Location = new System.Drawing.Point(595, 436);
+            this.calcbutton.Location = new System.Drawing.Point(563, 329);
             this.calcbutton.Name = "calcbutton";
             this.calcbutton.Size = new System.Drawing.Size(79, 47);
             this.calcbutton.TabIndex = 2;
@@ -128,7 +128,7 @@
             // 
             // input
             // 
-            this.input.Location = new System.Drawing.Point(94, 437);
+            this.input.Location = new System.Drawing.Point(62, 330);
             this.input.Name = "input";
             this.input.Size = new System.Drawing.Size(184, 20);
             this.input.TabIndex = 8;
@@ -137,17 +137,18 @@
             // 
             this.foodlabel.AutoSize = true;
             this.foodlabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.foodlabel.Location = new System.Drawing.Point(53, 284);
+            this.foodlabel.Location = new System.Drawing.Point(53, 78);
             this.foodlabel.Name = "foodlabel";
             this.foodlabel.Size = new System.Drawing.Size(42, 19);
             this.foodlabel.TabIndex = 9;
             this.foodlabel.Text = "Food";
+            this.foodlabel.Click += new System.EventHandler(this.foodlabel_Click);
             // 
             // partylabel
             // 
             this.partylabel.AutoSize = true;
             this.partylabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.partylabel.Location = new System.Drawing.Point(242, 284);
+            this.partylabel.Location = new System.Drawing.Point(242, 78);
             this.partylabel.Name = "partylabel";
             this.partylabel.Size = new System.Drawing.Size(41, 19);
             this.partylabel.TabIndex = 10;
@@ -157,7 +158,7 @@
             // 
             this.transportlabel.AutoSize = true;
             this.transportlabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.transportlabel.Location = new System.Drawing.Point(431, 284);
+            this.transportlabel.Location = new System.Drawing.Point(431, 78);
             this.transportlabel.Name = "transportlabel";
             this.transportlabel.Size = new System.Drawing.Size(67, 19);
             this.transportlabel.TabIndex = 11;
@@ -167,7 +168,7 @@
             // 
             this.bookslabel.AutoSize = true;
             this.bookslabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bookslabel.Location = new System.Drawing.Point(620, 284);
+            this.bookslabel.Location = new System.Drawing.Point(620, 78);
             this.bookslabel.Name = "bookslabel";
             this.bookslabel.Size = new System.Drawing.Size(49, 19);
             this.bookslabel.TabIndex = 12;
@@ -177,7 +178,7 @@
             // 
             this.otherslabel.AutoSize = true;
             this.otherslabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.otherslabel.Location = new System.Drawing.Point(809, 284);
+            this.otherslabel.Location = new System.Drawing.Point(809, 78);
             this.otherslabel.Name = "otherslabel";
             this.otherslabel.Size = new System.Drawing.Size(50, 19);
             this.otherslabel.TabIndex = 13;
@@ -196,7 +197,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 561);
+            this.ClientSize = new System.Drawing.Size(1044, 531);
             this.Controls.Add(this.sumlabel);
             this.Controls.Add(this.otherslabel);
             this.Controls.Add(this.bookslabel);
