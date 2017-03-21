@@ -60,7 +60,14 @@ namespace FinancialCalc
 
         private void calcbutton_Click(object sender, EventArgs e)
         {
-           sumlabel.Text = foodlist.ConvertAll(item => double.Parse(item)).Sum().ToString();
+            sumlabel.Text =
+                (
+                 foodlist.ConvertAll(item => double.Parse(item)).Sum() +
+                 partylist.ConvertAll(item => double.Parse(item)).Sum() +
+                 transportlist.ConvertAll(item => double.Parse(item)).Sum() +
+                 bookslist.ConvertAll(item => double.Parse(item)).Sum() +
+                 otherslist.ConvertAll(item => double.Parse(item)).Sum()
+                 ).ToString();
         }
 
         private void foodlabel_Click(object sender, EventArgs e)
