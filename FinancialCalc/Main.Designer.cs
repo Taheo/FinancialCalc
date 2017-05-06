@@ -55,7 +55,7 @@
             "Transport",
             "Books",
             "Others"});
-            this.category.Location = new System.Drawing.Point(56, 354);
+            this.category.Location = new System.Drawing.Point(215, 343);
             this.category.Name = "category";
             this.category.Size = new System.Drawing.Size(152, 21);
             this.category.TabIndex = 0;
@@ -63,7 +63,7 @@
             // addbutton
             // 
             this.addbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.addbutton.Location = new System.Drawing.Point(214, 328);
+            this.addbutton.Location = new System.Drawing.Point(373, 328);
             this.addbutton.Name = "addbutton";
             this.addbutton.Size = new System.Drawing.Size(122, 47);
             this.addbutton.TabIndex = 1;
@@ -74,7 +74,7 @@
             // calcbutton
             // 
             this.calcbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.calcbutton.Location = new System.Drawing.Point(342, 328);
+            this.calcbutton.Location = new System.Drawing.Point(501, 328);
             this.calcbutton.Name = "calcbutton";
             this.calcbutton.Size = new System.Drawing.Size(79, 47);
             this.calcbutton.TabIndex = 2;
@@ -134,7 +134,7 @@
             // 
             // input
             // 
-            this.input.Location = new System.Drawing.Point(56, 328);
+            this.input.Location = new System.Drawing.Point(57, 343);
             this.input.Name = "input";
             this.input.Size = new System.Drawing.Size(152, 20);
             this.input.TabIndex = 8;
