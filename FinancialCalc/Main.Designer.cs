@@ -1,6 +1,6 @@
 ﻿namespace FinancialCalc
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -43,6 +43,7 @@
             this.bookslabel = new System.Windows.Forms.Label();
             this.otherslabel = new System.Windows.Forms.Label();
             this.sumlabel = new System.Windows.Forms.Label();
+            this.sumlabeltext = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // category
@@ -147,7 +148,6 @@
             this.foodlabel.Size = new System.Drawing.Size(42, 19);
             this.foodlabel.TabIndex = 9;
             this.foodlabel.Text = "Food";
-            this.foodlabel.Click += new System.EventHandler(this.foodlabel_Click);
             // 
             // partylabel
             // 
@@ -195,15 +195,25 @@
             this.sumlabel.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.sumlabel.Location = new System.Drawing.Point(920, 344);
             this.sumlabel.Name = "sumlabel";
-            this.sumlabel.Size = new System.Drawing.Size(76, 31);
+            this.sumlabel.Size = new System.Drawing.Size(0, 31);
             this.sumlabel.TabIndex = 14;
-            this.sumlabel.Text = "Result";
             // 
-            // Form1
+            // sumlabeltext
+            // 
+            this.sumlabeltext.AutoSize = true;
+            this.sumlabeltext.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.sumlabeltext.Location = new System.Drawing.Point(849, 343);
+            this.sumlabeltext.Name = "sumlabeltext";
+            this.sumlabeltext.Size = new System.Drawing.Size(65, 31);
+            this.sumlabeltext.TabIndex = 15;
+            this.sumlabeltext.Text = "Sum:";
+            // 
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1044, 531);
+            this.Controls.Add(this.sumlabeltext);
             this.Controls.Add(this.sumlabel);
             this.Controls.Add(this.otherslabel);
             this.Controls.Add(this.bookslabel);
@@ -219,7 +229,7 @@
             this.Controls.Add(this.calcbutton);
             this.Controls.Add(this.addbutton);
             this.Controls.Add(this.category);
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "FinancialCalc";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -243,6 +253,7 @@
         private System.Windows.Forms.Label bookslabel;
         private System.Windows.Forms.Label otherslabel;
         private System.Windows.Forms.Label sumlabel;
+        private System.Windows.Forms.Label sumlabeltext;
     }
 }
 
